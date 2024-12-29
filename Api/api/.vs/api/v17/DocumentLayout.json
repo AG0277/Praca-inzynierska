@@ -1,0 +1,150 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2517DF4-7C75-470C-974B-ECA773A21CE1}|..\\apiTests\\apiTests.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\apitests\\controllers\\roomreservationcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2517DF4-7C75-470C-974B-ECA773A21CE1}|..\\apiTests\\apiTests.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\apitests\\applicationtestsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2517DF4-7C75-470C-974B-ECA773A21CE1}|..\\apiTests\\apiTests.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\apitests\\controllers\\courseassignmentcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEC6414-C3C2-4DB4-9C13-DB3B1395EFBB}|api.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\api\\controllers\\courseassigmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEC6414-C3C2-4DB4-9C13-DB3B1395EFBB}|api.csproj|solutionrelative:controllers\\courseassigmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEC6414-C3C2-4DB4-9C13-DB3B1395EFBB}|api.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\api\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEC6414-C3C2-4DB4-9C13-DB3B1395EFBB}|api.csproj|solutionrelative:controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2517DF4-7C75-470C-974B-ECA773A21CE1}|..\\apiTests\\apiTests.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\apitests\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2517DF4-7C75-470C-974B-ECA773A21CE1}|..\\apiTests\\apiTests.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\apitests\\controllers\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAEC6414-C3C2-4DB4-9C13-DB3B1395EFBB}|api.csproj|c:\\users\\artur\\source\\repos\\inzynierka\\api\\api\\controllers\\courseuserassigmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAEC6414-C3C2-4DB4-9C13-DB3B1395EFBB}|api.csproj|solutionrelative:controllers\\courseuserassigmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoomReservationControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\Controllers\\RoomReservationControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\apiTests\\Controllers\\RoomReservationControllerTests.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\Controllers\\RoomReservationControllerTests.cs",
+              "RelativeToolTip": "..\\apiTests\\Controllers\\RoomReservationControllerTests.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T12:21:09.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "..\\apiTests\\DatabaseSeeder.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\DatabaseSeeder.cs",
+              "RelativeToolTip": "..\\apiTests\\DatabaseSeeder.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T17:07:27.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationTestsFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\ApplicationTestsFactory.cs",
+              "RelativeDocumentMoniker": "..\\apiTests\\ApplicationTestsFactory.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\ApplicationTestsFactory.cs",
+              "RelativeToolTip": "..\\apiTests\\ApplicationTestsFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T17:07:25.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "Controllers\\CourseController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:21:08.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CourseUserAssigmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\Controllers\\CourseUserAssigmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseUserAssigmentController.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\Controllers\\CourseUserAssigmentController.cs",
+              "RelativeToolTip": "Controllers\\CourseUserAssigmentController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:21:08.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\Controllers\\AccountControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\apiTests\\Controllers\\AccountControllerTests.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\Controllers\\AccountControllerTests.cs",
+              "RelativeToolTip": "..\\apiTests\\Controllers\\AccountControllerTests.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAA5wGQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:58:00.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CourseAssignmentControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\Controllers\\CourseAssignmentControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\apiTests\\Controllers\\CourseAssignmentControllerTests.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\apiTests\\Controllers\\CourseAssignmentControllerTests.cs",
+              "RelativeToolTip": "..\\apiTests\\Controllers\\CourseAssignmentControllerTests.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEAAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:49:29.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CourseAssigmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\Controllers\\CourseAssigmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CourseAssigmentController.cs",
+              "ToolTip": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api\\Controllers\\CourseAssigmentController.cs",
+              "RelativeToolTip": "Controllers\\CourseAssigmentController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA9wCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:52:58.136Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

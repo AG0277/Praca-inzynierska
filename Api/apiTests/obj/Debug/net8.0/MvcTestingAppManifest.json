@@ -1,0 +1,6 @@
+{
+  "api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\api",
+  "Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\Domain",
+  "Infastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\Infastructure",
+  "Logic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Artur\\source\\repos\\inzynierka\\Api\\Logic"
+}
