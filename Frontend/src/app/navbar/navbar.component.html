@@ -1,0 +1,12 @@
+<div class="w-full h-28 fixed z-[100]">
+  <nav class="bg-primary text-white h-full flex items-center">
+    <ul class="flex space-x-4 text-2xl justify-center items-center w-full">
+      <li *ngFor="let item of navItems" class="hover:text-gray-300">
+        <a [routerLink]="item.link" class="flex items-center space-x-2">
+          <span>{{ item.label }}</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<router-outlet />

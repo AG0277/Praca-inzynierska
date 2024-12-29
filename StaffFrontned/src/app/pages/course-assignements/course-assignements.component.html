@@ -1,0 +1,16 @@
+<app-small-calendar
+  [startYear]="fromYear"
+  [startMonth]="fromNumberMonth"
+  [selectedStartDay]="fromDay"
+  (selectedDate)="onFromDateSelected($event)"
+></app-small-calendar>
+<app-course-assignement
+  [startDate]="modalStartDate"
+  [endDate]="modalEndDate"
+  [courseId]="courseId"
+  [instructorId]="instructorId"
+  [selectedDate]="selectedDate"
+  [coursAssigmentId]="coursAssigmentId"
+  [isPopupVisible]="isPopupVisible"
+  (notifyToTurnOff)="closePopUp()"
+></app-course-assignement>

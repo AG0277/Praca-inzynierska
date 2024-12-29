@@ -1,0 +1,26 @@
+<div class="pt-[200px] w-full flex justify-center pb-[200px]">
+  <div class="w-[1500px]">
+    <p class="text-5xl pb-10">Harmonogram</p>
+    <app-big-calendar
+      [startYear]="fromYear"
+      [startMonth]="fromNumberMonth"
+      [selectedStartDay]="fromDay"
+      (selectedDate)="onFromDateSelected($event)"
+    ></app-big-calendar>
+    <app-course-assignement
+      [startDate]="modalStartDate"
+      [endDate]="modalEndDate"
+      [courseId]="courseId"
+      [instructorId]="instructorId"
+      [selectedDate]="selectedDate"
+      [coursAssigmentId]="coursAssigmentId"
+      [isPopupVisible]="isPopupVisible"
+      (notifyToTurnOff)="closePopUp()"
+    ></app-course-assignement>
+    <p class="text-5xl pt-10 pb-2">Zapisy</p>
+    <p class="text-xl">
+      W razie pytań lub chęci zapisu na dany kurs prosimy o telefon na numer +48
+      123 123 123
+    </p>
+  </div>
+</div>

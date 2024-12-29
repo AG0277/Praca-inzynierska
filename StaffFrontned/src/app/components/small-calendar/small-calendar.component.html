@@ -1,0 +1,41 @@
+<div class="calendar border-2 border-gray-800">
+  <div class="calendar-header">
+    <button
+      (click)="previousMonth()"
+      class="text-3xl w-[100px] h-[50px] hover:border-2"
+    >
+      &#8249;
+    </button>
+    <div class="calendar-month-year">
+      <span>{{ monthNames[month] }} {{ year }}</span>
+    </div>
+    <button
+      (click)="nextMonth()"
+      class="text-3xl w-[100px] h-[50px] hover:border-2"
+    >
+      &#8250;
+    </button>
+  </div>
+
+  <div class="calendar-days">
+    <p class="calendar-day" *ngFor="let day of weekDays">{{ day }}</p>
+  </div>
+
+  <div class="calendar-body">
+    <div
+      class="calendar-day flex flex-col"
+      *ngFor="let day of days"
+      (click)="onDateSelected(day.date, day.courseAssigmentId)"
+    >
+      <p
+        [ngClass]="{
+          'not-current-month': !day.isCurrentMonth,
+          'current-month': day.isCurrentMonth,
+        }"
+      >
+        {{ day.date }}
+      </p>
+      <p>{{ day.courseNameToDisplay }}</p>
+    </div>
+  </div>
+</div>

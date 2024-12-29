@@ -1,0 +1,91 @@
+<div class="flex justify-center pt-[200px]">
+  <div class="w-[1000px] flex flex-col items-center">
+    <div class="flex justify-evenly mb-10 ml-20">
+      <div class="w-[420px]">
+        <div
+          (click)="showFromCalendar = !showFromCalendar; showToCalendar = false"
+          class="flex justify-between w-[300px] mb-4 p-5 bg-secondary rounded-md hover:cursor-pointer"
+        >
+          <div class="flex">
+            <p class="text-5xl mr-3 items-center">{{ fromDay }}</p>
+            <div class="flex flex-col">
+              <p>{{ fromMonth }} {{ fromYear }}</p>
+              <p>{{ fromWeekDay }}</p>
+            </div>
+          </div>
+          <img src="calendar-svgrepo-com.svg" width="35" height="35" />
+        </div>
+        <div *ngIf="showFromCalendar">
+          <app-small-calendar
+            class="absolute z-1000 border border-gray-700 bg-white"
+            [startYear]="fromYear"
+            [startMonth]="fromNumberMonth"
+            [selectedStartDay]="fromDay"
+            (selectedDate)="onFromDateSelected($event)"
+          ></app-small-calendar>
+        </div>
+      </div>
+      <div div class="w-[420px]">
+        <div
+          (click)="showToCalendar = !showToCalendar; showFromCalendar = false"
+          class="flex justify-between w-[300px] mb-4 p-5 bg-secondary rounded-md hover:cursor-pointer"
+        >
+          <div class="flex">
+            <p class="text-5xl mr-3 items-center">{{ toDay }}</p>
+            <div class="flex flex-col">
+              <p>{{ toMonth }} {{ toYear }}</p>
+              <p>{{ toWeekDay }}</p>
+            </div>
+          </div>
+          <img src="calendar-svgrepo-com.svg" width="35" height="35" />
+        </div>
+
+        <div *ngIf="showToCalendar">
+          <app-small-calendar
+            class="absolute z-1000 border border-gray-700 bg-white"
+            [startYear]="toYear"
+            [startMonth]="toNumberMonth"
+            [selectedStartDay]="toDay"
+            (selectedDate)="onToDateSelected($event)"
+          ></app-small-calendar>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-[800px]">
+      <div *ngIf="reservationList && reservationList.length > 0">
+        <h2 class="text-xl font-bold mt-8">Rezerwacje</h2>
+        <ul class="mt-4">
+          <li
+            *ngFor="let reservation of reservationList; let i = index"
+            class="border border-gray-300 rounded p-2 mb-2 flex justify-between"
+          >
+            <span>Pokój nr {{ reservation.roomNumber }} </span>
+            <span
+              >{{ reservation.from | date : "dd.MM.yyyy" }} -
+              {{ reservation.to | date : "dd.MM.yyyy" }}
+            </span>
+            <span> {{ reservation.noOfPeople }} os.</span>
+            <span>{{ reservation.totalPrice }} zł </span>
+            <button
+              (click)="removeFromCart(i)"
+              class="bg-red-500 text-white px-2 rounded hover:bg-red-600"
+            >
+              Usuń
+            </button>
+          </li>
+        </ul>
+        <button routerLink="/payU" class="button w-full mb-2 text-white">
+          Przejdź do rezerwacji
+        </button>
+      </div>
+
+      <div *ngFor="let room of listRooms">
+        <app-room
+          [room]="room"
+          (roomReservation)="onReservation($event)"
+        ></app-room>
+      </div>
+    </div>
+  </div>
+</div>

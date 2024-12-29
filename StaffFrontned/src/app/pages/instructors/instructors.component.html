@@ -1,0 +1,16 @@
+<div class="flex flex-col justify-center items-center">
+  <div>
+    <button
+      class="w-[200px] h-[100px] bg-green-400"
+      (click)="createInstructor()"
+    >
+      DODAJ
+    </button>
+  </div>
+  <div *ngFor="let item of instructorDic | keyvalue" class="pb-7">
+    <app-instructor
+      [instructor]="item.value"
+      (delete)="deleteInstructor($event)"
+    ></app-instructor>
+  </div>
+</div>

@@ -1,0 +1,40 @@
+<div class="h-screen w-[250px] bg-gray-800">
+  <nav class="text-white">
+    <ul>
+      <div *ngIf="isAuthenticated">
+        <li *ngFor="let item of navItems">
+          <a
+            [routerLink]="item.link"
+            class="h-20 flex items-center justify-center"
+          >
+            <span>{{ item.label }}</span>
+          </a>
+          <hr />
+        </li>
+      </div>
+      <li *ngIf="!isAuthenticated">
+        <a
+          [routerLink]="['/login']"
+          class="h-20 flex items-center justify-center"
+        >
+          <span>Zaloguj</span></a
+        >
+        <hr />
+      </li>
+      <li *ngIf="isAdmin">
+        <a
+          [routerLink]="['/register']"
+          class="h-20 flex items-center justify-center"
+          ><span>Zarejestruj</span></a
+        >
+        <hr />
+      </li>
+      <li *ngIf="isAuthenticated">
+        <a (click)="LogOut()" class="h-20 flex items-center justify-center"
+          ><span>Wyloguj</span></a
+        >
+        <hr />
+      </li>
+    </ul>
+  </nav>
+</div>

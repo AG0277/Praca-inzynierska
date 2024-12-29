@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1f2937; /* Blue */
+  --secondary-color: rgb(229 231 235);
+  --tertiary-color: #38c172; /* Green */
+}
+
+.button {
+  background-color: var(--primary-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

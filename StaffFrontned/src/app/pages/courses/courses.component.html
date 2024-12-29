@@ -1,0 +1,13 @@
+<div class="flex flex-col justify-center items-center">
+  <div>
+    <button class="w-[200px] h-[100px] bg-green-400" (click)="createCourse()">
+      DODAJ
+    </button>
+  </div>
+  <div *ngFor="let item of courseDic | keyvalue" class="pb-7">
+    <app-course
+      [course]="item.value"
+      (delete)="deleteCourse($event)"
+    ></app-course>
+  </div>
+</div>

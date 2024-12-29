@@ -1,0 +1,9 @@
+
+.wielkosc{
+ font-size: :x-large;
+}
+.paragraf{
+ text-align: center; /* Centers the text horizontally */
+  word-wrap: break-word; /* Ensures text breaks appropriately */
+  white-space: normal; /* Ensures lines are wrapped normally */
+}

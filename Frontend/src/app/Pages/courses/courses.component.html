@@ -1,0 +1,26 @@
+<div class="w-full h-full flex justify-center pt-[200px]">
+  <div class="w-[1000px] border-2 p-10">
+    <div class="flex justify-between">
+      <p class="text-3xl font-bold">{{ course.name }}</p>
+      <div class="flex flex-col">
+        <label class="text-3xl font-bold">Wybierz kurs:</label>
+        <select
+          [(ngModel)]="selectedCourseId"
+          (change)="onCourseChange()"
+          class="border-2"
+        >
+          <option value="" disabled selected>Select a course</option>
+          <option *ngFor="let course of courseList" [value]="course.id">
+            {{ course.name }}
+          </option>
+        </select>
+      </div>
+    </div>
+    <p class="text-xl pt-4">Typ kursu: {{ courseSeasonType }}</p>
+    <p class="text-xl pt-4">Liczba dni: {{ course.numberOfDays }}</p>
+    <p class="text-xl pt-4">Cena kursu za osobę: {{ course.price }}</p>
+    <div [ngStyle]="{ 'white-space': 'pre-line' }" class="text-xl pt-4">
+      {{ course.description }}
+    </div>
+  </div>
+</div>
